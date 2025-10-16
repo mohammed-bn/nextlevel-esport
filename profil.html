@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,53 +37,54 @@
         </div>
     </header>
 
-    
-    <section id="contact" class="section" aria-labelledby="contact-title">
-        <div class="container-contact">
-            <div class="contact-card1 " id="cnt">
-                <div class="section-head">
-                    <h2 id="contact-title">Contact</h2>
-                    <p>Une question, une proposition de partenariat ? Écrivez-nous.</p>
-                </div>
-                <div class="contact_input">
-                    <label for="name">Nom</label><br>
-                    <input type="text" placeholder="name complet">
-                </div>
-                <div class="contact_input">
-                    <label for="emeil">email</label><br>
-                    <input type="text" placeholder="vous@email.com">
-                </div>
-                <div class="contact_input">
-                    <label for="topic">Sujet</label><br>
-                    <select name="topic" id="topic">
-                        <option>Support</option>
-                        <option>Partenariat</option>
-                        <option>Organisation tournoi</option>
-                    </select>
-                </div>
-                <div class="contact_input">
-                    <label for="message">message</label><br>
-                    <!-- <input type="text" id="message" placeholder="votre messsage..."> -->
-                    <textarea name="message" id="message" placeholder="votre message..."></textarea>
-                    <div>
-                        <button class="btn primary" type="submit">Envoyer</button>
-                    </div>
-                </div>
-            </div>
 
+    <section id="profil" class="section" aria-label="profil d'equipe">
+        <div class="info-profil">
+            <h2>profil equipe</h2>
+            <h3>Championship Series</h3>
+            <img id="img" src="public/esport-prize-pool-announcement-with-pink-lights.jpg" alt="poto de l'equipe">
+            <p id="hero-description">Tournoi international avec les meilleures équipes du monde</p>
+            <p>15 Jan 2025</p>
+            <br>
+            <h4>momber</h4>
+            <table id="list-momber" border="2px">
+                <tr>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>status</th>
+                    <th>nationality</th>
+                </tr>
+                <tr>
+                    <td>robirto</td>
+                    <td>27</td>
+                    <td>active</td>
+                    <td>Netherlands</td>
+                </tr>
+                <tr>
+                    <td>carlos</td>
+                    <td>31</td>
+                    <td>active</td>
+                    <td>Belgique</td>
+                </tr>
+                <tr>
+                    <td>daniel</td>
+                    <td>29</td>
+                    <td>active</td>
+                    <td>maroccian</td>
+                </tr>
+            </table>
 
-            <div class="contact-card2 " aria-label="information de contact" id="info">
-                <div id="info">
-                <h2>Informations</h2>
-                <p class="muted">NextLevel E-Sport <br>Adreass: BLOC 16 RUE 2MARS CASABLANCA MAROC</p>
-                <p class="muted">Contact<br>tel: +212 743564912</p>
-                <p class="muted">fix: +212 543564912</p>
-                </div>
+            <div class="clasmment"> 
+                <p>Classements</p>
+                <p>Wins</p>
+                <p>Losses</p>
+                <p>Total</p>
             </div>
         </div>
-
     </section>
-    <footer id="fouter" class="footer">
+
+
+ <footer id="fouter" class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
@@ -163,5 +163,4 @@
         </div>
     </footer>
 </body>
-
 </html>
